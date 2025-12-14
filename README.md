@@ -8,10 +8,9 @@ The purpose of this project is to investigate whether computational techniques a
 
 
 # Methods & Tools (this is also in the requirements.txt):
-- Scientific Libaries used: NumPy, SciPy, Matplotlib, Pandas  
-- Astronomy data analysis: Astropy, Lightkurve, batman, emcee
-- Interactive 3D visualization: Plotly (quick for data disualization), VPython, Tqdm (to see progress bar, will be useful for large data sets), Seaborn  
-- Analysis: Jupyter Notebooks
+- Scientific Libaries used: NumPy (1.23.5), SciPy (1.10.1), Matplotlib (3.7.5), Pandas (1.5.3)
+- Astronomy data analysis: Astropy (5.3.4), Astroquery (0.4.6), Lightkurve (2.4.2), batman-package(2.4.9), emcee (3.1.4), corner (2.2.2), tqdm (4.67.1), requests (2.28.2)
+- Analysis done in: Jupyter Notebooks
 
 Resources:
 - [TESS beginner light curve tutorial](https://spacetelescope.github.io/mast_notebooks/notebooks/TESS/beginner_how_to_use_lc/beginner_how_to_use_lc.html)  
