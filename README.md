@@ -6,9 +6,6 @@ Group Members: Isaac Chan, Kiran John, Jonathan Pan, Cyan Yee, Hana Zitnanska
 # Project Overview: 
 The purpose of this project is to investigate whether computational techniques applied to TESS Full Frame Images (FFIs) can identify transit events with incomplete orbital information (i.e. planet radius) and use physical transit modeling (batman) combined with Markov Chain Monte Carlo (MCMC) sampling to recover or refine key parameters such as period, planet radius, inclination, angle of periastron, semi-major axis, transit mid-time, and eccentricity. As TESS often produces incomplete or noisy data due to short observing windows, we aim to increase the accuracy of these to help understand the physical properties of given exoplanets. To do so, we extract light curves from TESS FFI using BLS to detect transit signals and estimate initial parameters as BLS  allows more flexibility to missing parameters. 
 
-# Deliverables: 
-- Light curve plots for relevant exoplanets in csv file format
-- Inferred orbital parameters including inclination, eccentricity, semi-major axis, argument of periastron, and ...
 
 # Methods & Tools (this is also in the requirements.txt):
 - Scientific Libaries used: NumPy, SciPy, Matplotlib, Pandas  
