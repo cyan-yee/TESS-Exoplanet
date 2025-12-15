@@ -26,6 +26,21 @@ The purpose of this project is to investigate whether computational techniques a
     - batch_results analyzes multiple TOIs at a time (currently set to 20)
        - Runs BLS on all TOIs
        - Creates csv file of cleaned/normalized light curves, ready for BLS and batman/MCMC
+# Processing + MCMC
+- Script located in MCMC_FINAL notebook (in Data folder)
+- Computation pipline which retreives BLS guesses, optimizes the intial guesses, and runs MCMC on a section of the transit csv file to compute fitted orbital paramters
+- How to run:
+  - Run the cell with a csv file produced from preprocessing in "data = # Put csv file with  flux, flux error, and time"
+    - To analyze different TICs:
+       - Change to corresponding csv file
+  - Outputs corner plot with posterior distribution and final fitted orbitally paramters
+# Light curve + Orbital Model
+- Script located in Light_Curve&Orbital_Model notebook (in Data folder)
+- 2 cells: 1) Produces a batman light curve based compared to the transit light curve data, 2) Produces an orbital model
+    - Both cells run on fitted orbital parameters which must be input into the cells
+- How to run:
+    - Run first cell with fitted orbital paramters to generate light curve
+    - Run second cell with fitted orbital paramters (rp, inc, a, w) to create a model orbit
 
 # Resources:
 - [TESS beginner light curve tutorial](https://heasarc.gsfc.nasa.gov/docs/tess/LightCurve-object-Tutorial.html)  
