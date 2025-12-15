@@ -14,7 +14,9 @@ The purpose of this project is to investigate whether computational techniques a
   -  Cleaned/normalized light curves located in data, lightcurves folder 
 
 Resources:
-- [TESS beginner light curve tutorial](https://spacetelescope.github.io/mast_notebooks/notebooks/TESS/beginner_how_to_use_lc/beginner_how_to_use_lc.html)  
-- [TESS data validation tutorial](https://spacetelescope.github.io/mast_notebooks/notebooks/TESS/beginner_how_to_use_dvt/beginner_how_to_use_dvt.html)  
+- [TESS beginner light curve tutorial](https://spacetelescope.github.io/mast_notebooks/notebooks/TESS/beginner_how_to_use_lc/beginner_how_to_use_lc.html](https://heasarc.gsfc.nasa.gov/docs/tess/LightCurve-object-Tutorial.html ).  
+- [TESS data aperture tutorial]([https://spacetelescope.github.io/mast_notebooks/notebooks/TESS/beginner_how_to_use_dvt/beginner_how_to_use_dvt.html](https://heasarc.gsfc.nasa.gov/docs/tess/Aperture-Photometry-Tutorial.html)
 - [TESS Introduction](https://heasarc.gsfc.nasa.gov/docs/tess/TESS-Intro.html)  
-- [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/)  
+- [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/)
+- [MAST](https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html)
+
