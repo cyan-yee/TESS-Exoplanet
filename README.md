@@ -17,7 +17,3 @@ Resources:
 - [TESS data validation tutorial](https://spacetelescope.github.io/mast_notebooks/notebooks/TESS/beginner_how_to_use_dvt/beginner_how_to_use_dvt.html)  
 - [TESS Introduction](https://heasarc.gsfc.nasa.gov/docs/tess/TESS-Intro.html)  
 - [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/)  
-
-pull latest changes using:
-- git checkout main
-- git pull origin main
