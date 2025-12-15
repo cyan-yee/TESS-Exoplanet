@@ -12,7 +12,7 @@ The purpose of this project is to investigate whether computational techniques a
 - Astronomy data analysis: Astropy (5.3.4), Astroquery (0.4.6), Lightkurve (2.4.2), batman-package(2.4.9), emcee (3.1.4), corner (2.2.2), tqdm (4.67.1), requests (2.28.2)
 - Analysis done in: Jupyter Notebooks (located in Data folder)
   -  Cleaned/normalized light curves located in Data, lightcurves folder
-
+---
 # Preprocessing + BLS
 - Script located in FFI notebook (in Data folder)
 - Has 2 main functions: 1) Analyzes and plots for 1 target, 2) Analyzes for 20 TOIs (and saves light curves to csv) + plots for 1 target
