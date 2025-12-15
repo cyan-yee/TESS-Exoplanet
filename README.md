@@ -15,7 +15,7 @@ The purpose of this project is to investigate whether computational techniques a
 
 Resources:
 - [TESS beginner light curve tutorial](https://heasarc.gsfc.nasa.gov/docs/tess/LightCurve-object-Tutorial.html)  
-- [TESS data aperture tutorial](https://heasarc.gsfc.nasa.gov/docs/tess/LightCurve-object-Tutorial.html)
+- [TESS data aperture tutorial](https://heasarc.gsfc.nasa.gov/docs/tess/Aperture-Photometry-Tutorial.html)
 - [TESS Introduction](https://heasarc.gsfc.nasa.gov/docs/tess/TESS-Intro.html)  
 - [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/)
 - [MAST](https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html)
