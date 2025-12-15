@@ -11,9 +11,23 @@ The purpose of this project is to investigate whether computational techniques a
 - Scientific Libaries used: NumPy (1.23.5), SciPy (1.10.1), Matplotlib (3.7.5), Pandas (1.5.3)
 - Astronomy data analysis: Astropy (5.3.4), Astroquery (0.4.6), Lightkurve (2.4.2), batman-package(2.4.9), emcee (3.1.4), corner (2.2.2), tqdm (4.67.1), requests (2.28.2)
 - Analysis done in: Jupyter Notebooks (located in Data folder)
-  -  Cleaned/normalized light curves located in data, lightcurves folder 
+  -  Cleaned/normalized light curves located in Data, lightcurves folder
 
-Resources:
+# Preprocessing + BLS
+- Script located in FFI notebook (in Data folder)
+- Has 2 main functions: 1) Analyzes and plots for 1 target, 2) Analyzes for 20 TOIs (and saves light curves to csv) + plots for 1 target
+  - Both functions will extract a light-curve, clean/normalize, run BLS search for period, estimate uncertainity, and give plots
+- How to run:
+  - Run the 2nd cell starting with "if name == "main":"
+    - df_missing = search_tois_with_missing_radius() finds TOIs with missing radius
+    - To analyze different TOIs:
+       - Change index in "candidate_index = #"
+       - This will graph all plots, run BLS, and give a summary of all calculations
+    - batch_results analyzes multiple TOIs at a time (currently set to 20)
+       - Runs BLS on all TOIs
+       - Creates csv file of cleaned/normalized light curves, ready for BLS and batman/MCMC
+
+# Resources:
 - [TESS beginner light curve tutorial](https://heasarc.gsfc.nasa.gov/docs/tess/LightCurve-object-Tutorial.html)  
 - [TESS data aperture tutorial](https://heasarc.gsfc.nasa.gov/docs/tess/Aperture-Photometry-Tutorial.html)
 - [TESS Introduction](https://heasarc.gsfc.nasa.gov/docs/tess/TESS-Intro.html)  
